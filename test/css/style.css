@@ -1,0 +1,84 @@
+html{ scroll-behavior:smooth }
+
+body {
+
+  background-color: #ecf0f1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: "Patua One", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+
+h2 { font-size: 20px; font-weight: normal; }
+
+main {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.real-info, .firstElement {
+  flex: 1;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.real-info {
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: rgba(230, 230, 230);
+  padding: 40px;
+  width: 700px;
+  text-align: justify;
+
+}
+
+.real-info h1 {
+
+  text-align: left;
+  font-weight: normal;
+
+}
+
+.real-info p {
+
+  font-size: 20px;
+
+}
+
+#info-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+ 
+
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(100%);
+  background-color: rgb(158, 158, 158);
+}
+
+a{
+
+  text-decoration: none;
+}
+
+.Intro {
+  column-count: 2;
+}
